@@ -389,6 +389,12 @@ img {
     align-items: center;
 }
 
+.work__card-2,
+.work__card-3,
+.work__card-4 {
+    display: none;
+}
+
 .work__card-title {
     font-family: 'Montserrat';
     font-style: normal;
