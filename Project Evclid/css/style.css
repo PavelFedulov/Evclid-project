@@ -313,10 +313,146 @@ img {
     background: #e1670E;
 }
 
-.about__us-card-rt{
+.about__us-card-rt {
+    display: flex;
+    max-width: 870px;
+    max-height: 295px;
+    margin-bottom: 65px;
+    border: #4d4d4d solid 1px;
+}
+
+.about__us-card-rt-pic {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.about__us-card-rt-text {
+    padding-left: 70px;
+    padding-top: 65px;
+}
+
+.about__us-card-rt-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 450px;
+    margin-bottom: 8px;
+}
+
+.about__us-card-rt-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 450px;
+    margin-bottom: 70px;
+}
+
+/* About us end */
+
+/* Work styles start */
+
+.work {
+    margin-bottom: 100px;
+}
+
+.work__title {
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 50px;
+}
+
+.work__steps-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.work__step-link {
+    margin-right: 85px;
+    text-decoration: none;
+    width: 47px;
+    height: 22px;
+    color: #4d4d4d;
+    margin-bottom: 45px;
+}
+
+.work__card-1 {
     display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-gap: 0 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 142px;
     align-items: center;
 }
-/* About us end */
+
+.work__card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.work__card-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.work__cards-buttons {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 38px;
+    gap: 10px;
+}
+
+.button__more {
+    width: 99px;
+    height: 20px;
+    color: #FFFFFF;
+    width: 175px;
+    height: 60px;
+    background: #FF9900;
+    border: none;
+}
+
+.button__deal {
+    width: 71px;
+    height: 20px;
+    color: #333333;
+    width: 147px;
+    height: 60px;
+    border: 1px solid #333333;
+    background-color: #FFFFFF;
+    margin-left: 35px;
+}
+
+.button__more:hover,
+.button__more:focus,
+.button__more:active {
+    background: #e1670E;
+}
+
+.button__deal:hover,
+.button__deal:focus,
+.button__deal:active {
+    background: #666666;
+    color: #fff;
+}
+
+/* Work styles end */
