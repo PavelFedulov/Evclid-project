@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Project Evclid/css/reset.css" />
-    <link rel="stylesheet" href="../Project Evclid/css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Evclid portfolio project</title>
   </head>
   <body>
+    <div class="btn-up btn-up_hide"></div>
     <!--Header start-->
     <header class="header">
       <div class="wrapper">
@@ -22,13 +23,13 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a href="#!" class="header__link">О нас</a>
+                <a href="#about__us" class="header__link">О нас</a>
               </li>
               <li class="header__item">
                 <a href="#!" class="header__link">Проекты</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">Этапы</a>
+                <a href="#stages" class="header__link">Этапы</a>
               </li>
               <li class="header__item">
                 <a href="#!" class="header__link">Отзывы</a>
@@ -65,7 +66,7 @@
       <!--Intro end-->
 
       <!--About us start-->
-      <section class="about__us">
+      <section class="about__us" id="about__us">
         <div class="wrapper-full">
           <div class="about__us-header">
             <h3 class="about__us-title">О нас</h3>
@@ -154,7 +155,7 @@
       </section>
       <!--About us end-->
       <!--Work start-->
-      <div class="work">
+      <div class="work" id="stages">
         <div class="wrapper-full">
           <div class="work__header">
             <h3 class="work__title">Как мы работаем</h3>
@@ -457,5 +458,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -151,6 +151,42 @@ img {
     margin-left: 4%;
 }
 
+.btn-up {
+    /* фиксированное позиционирование */
+    position: fixed;
+    /* расстояние от правого края окна браузера */
+    right: 10px;
+    /* расстояние от нижнего края окна браузера */
+    bottom: 20px;
+    /* вид курсора */
+    cursor: pointer;
+    /* отображение элемента как flex */
+    display: flex;
+    /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+    align-items: center;
+    /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+    justify-content: center;
+    /* ширина элемента */
+    width: 60px;
+    /* высота элемента */
+    height: 60px;
+  }
+  
+  .btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url(../img/btn-up.png);
+  }
+  
+  .btn-up_hide {
+    display: none;
+  }
+  
+ 
+
 /* Header style start */
 .header {
     position: relative;
